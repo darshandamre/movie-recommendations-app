@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.App {
+  /* color-palette */
+  --font-color: #0d0d0d;
+  --primary: #064e3b;
+  --secondary: #d1fae5;
+
+  font-family: sans-serif;
+  color: var(--font-color);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 900px;
+}
+
+/* header */
+header {
+  margin: 0;
+  padding: 0;
+}
+.header__title {
+  margin: 0;
+  padding: 1.5em 0;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.btn {
+  color: var(--primary);
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  width: 120px;
+  margin: 0.5em;
+  padding: 0.3em;
+  background-color: var(--secondary);
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  color: white;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+/* section */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  max-width: 600px;
+  margin: 4em auto;
+  padding: 1em 1.5em;
+  text-align: justify;
+  border: 2px solid var(--primary);
+  border-radius: 30px;
+}
