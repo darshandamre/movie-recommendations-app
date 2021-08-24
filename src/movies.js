@@ -39,6 +39,12 @@ const movieDB = {
       imdb: 7.4
     },
     {
+      name: "The Platform",
+      description:
+        "A vertical prison with one cell per level. Two people per cell. Only one food platform and two minutes per day to feed. An endless nightmare trapped in The Hole.",
+      imdb: 7.0
+    },
+    {
       name: "Arrival",
       description:
         "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
@@ -108,20 +114,6 @@ const movieDB = {
       description:
         "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
       imdb: 8.2
-    }
-  ],
-  horror: [
-    {
-      name: "The Platform",
-      description:
-        "A vertical prison with one cell per level. Two people per cell. Only one food platform and two minutes per day to feed. An endless nightmare trapped in The Hole.",
-      imdb: 7.0
-    },
-    {
-      name: "Tumbbad",
-      description:
-        "A mythological story about a goddess who created the entire universe. The plot revolves around the consequences when humans build a temple for her first-born.",
-      imdb: 8.3
     }
   ],
   drama: [
